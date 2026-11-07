@@ -1,0 +1,1 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/"><title>Gomez Luna Abogados</title><a href="/">Continuar a Abogados en Fuengirola</a></html>

@@ -1,0 +1,240 @@
+[
+  {
+    "name": "administrativo",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/administrativo.png",
+    "master": "images-4k/administrativo.jpg"
+  },
+  {
+    "name": "africa",
+    "native": [
+      1086,
+      1448
+    ],
+    "export": [
+      3072,
+      4096
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/africa.png",
+    "master": "images-4k/africa.jpg"
+  },
+  {
+    "name": "arrendamiento",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/arrendamiento.png",
+    "master": "images-4k/arrendamiento.jpg"
+  },
+  {
+    "name": "asesoramiento",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/asesoramiento.png",
+    "master": "images-4k/asesoramiento.jpg"
+  },
+  {
+    "name": "comunidad",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/comunidad.png",
+    "master": "images-4k/comunidad.jpg"
+  },
+  {
+    "name": "desahucios",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/desahucios.png",
+    "master": "images-4k/desahucios.jpg"
+  },
+  {
+    "name": "despacho",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/despacho.png",
+    "master": "images-4k/despacho.jpg"
+  },
+  {
+    "name": "extranjeria",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/extranjeria.png",
+    "master": "images-4k/extranjeria.jpg"
+  },
+  {
+    "name": "familia",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/familia.png",
+    "master": "images-4k/familia.jpg"
+  },
+  {
+    "name": "herencias",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/herencias.png",
+    "master": "images-4k/herencias.jpg"
+  },
+  {
+    "name": "hero-immersive",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/hero-immersive.png",
+    "master": "images-4k/hero-immersive.jpg"
+  },
+  {
+    "name": "inmobiliario",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/inmobiliario.png",
+    "master": "images-4k/inmobiliario.jpg"
+  },
+  {
+    "name": "jesus",
+    "native": [
+      1086,
+      1448
+    ],
+    "export": [
+      3072,
+      4096
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/jesus.png",
+    "master": "images-4k/jesus.jpg"
+  },
+  {
+    "name": "laboral",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/laboral.png",
+    "master": "images-4k/laboral.jpg"
+  },
+  {
+    "name": "penal",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/penal.png",
+    "master": "images-4k/penal.jpg"
+  },
+  {
+    "name": "seguros",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/seguros.png",
+    "master": "images-4k/seguros.jpg"
+  },
+  {
+    "name": "trafico",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/trafico.png",
+    "master": "images-4k/trafico.jpg"
+  }
+]

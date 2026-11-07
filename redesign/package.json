@@ -1,0 +1,1 @@
+{"name":"gomez-luna-rediseno","private":true,"type":"module","scripts":{"build":"node build.mjs","dev":"node server.mjs","start":"node server.mjs"},"dependencies":{"esbuild":"^0.28.2","framer-motion":"^14.10.1","react":"^19.3.1","react-dom":"^19.3.1","sharp":"^0.35.5"},"devDependencies":{"@playwright/test":"^1.65.0"}}

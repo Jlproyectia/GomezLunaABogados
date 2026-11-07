@@ -1,0 +1,15 @@
+// Reserve the real navigation height rather than sizing the hero by its width.
+const siteChrome=[document.querySelector('.topbar'),document.querySelector('.header')].filter(Boolean);
+const measureSiteChrome=()=>document.documentElement.style.setProperty('--site-chrome-height',`${siteChrome.reduce((sum,el)=>sum+el.getBoundingClientRect().height,0)}px`);
+measureSiteChrome();
+if('ResizeObserver' in window){const chromeObserver=new ResizeObserver(measureSiteChrome);siteChrome.forEach(el=>chromeObserver.observe(el));}
+const menu=document.querySelector('.menu-toggle');
+menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));document.querySelector('.navlinks').classList.toggle('open',open);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu?.setAttribute('aria-expanded','false');document.querySelector('.navlinks')?.classList.remove('open');document.querySelectorAll('nav details[open]').forEach(d=>d.open=false);}});
+if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target);}}),{threshold:0.08});document.querySelectorAll('.reveal').forEach(el=>{el.classList.add('will-reveal');observer.observe(el);});}
+const search=document.querySelector('#service-search');let category='Todas';
+function filterServices(){const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const q=normalize(search?.value||'');let count=0;document.querySelectorAll('.service-card').forEach(el=>{const show=(category==='Todas'||el.dataset.category===category)&&normalize(el.textContent).includes(q);el.hidden=!show;if(show)count++;});const status=document.querySelector('#search-status');if(status)status.textContent=count?`${count} áreas a su disposición`:'No encontramos esa especialidad. Pruebe otra búsqueda o consúltenos directamente.';}
+search?.addEventListener('input',filterServices);
+document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.category;document.querySelectorAll('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));filterServices();}));
+document.querySelector('#contact-form')?.addEventListener('submit',e=>{e.preventDefault();const form=e.currentTarget;if(!form.reportValidity())return;const data=new FormData(form);const subject='Consulta: '+data.get('area');const body=`Nombre: ${data.get('nombre')}\nCorreo: ${data.get('email')}\nTeléfono: ${data.get('telefono')||'No indicado'}\nÁrea: ${data.get('area')}\n\n${data.get('mensaje')}`;const link=document.querySelector('#email-draft');link.href=`mailto:info@gomezlunaabogados.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;document.querySelector('#form-result').hidden=false;link.focus();});
+document.querySelectorAll('.toc a').forEach(a=>a.addEventListener('click',()=>{const d=document.querySelector('#contenido-completo');if(d)d.open=true;}));

@@ -1,0 +1,24 @@
+[
+  {
+    "desktop": "autoplay, synchronized captions, hover, keyboard, pause, links, wrapping and interrupted transitions pass",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "errors": [],
+    "reducedMotion": "manual selection works; autoplay off"
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "reducedMotion": "manual selection works; autoplay off"
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "errors": [],
+    "reducedMotion": "manual selection works; autoplay off"
+  }
+]

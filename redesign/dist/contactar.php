@@ -1,0 +1,1 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/contactar/"><title>Gomez Luna Abogados</title><a href="/contactar/">Continuar a Contacto</a></html>
