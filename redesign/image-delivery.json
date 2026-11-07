@@ -210,6 +210,48 @@
     "master": "images-4k/penal.jpg"
   },
   {
+    "name": "proceso-analisis",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/proceso-analisis.png",
+    "master": "images-4k/proceso-analisis.jpg"
+  },
+  {
+    "name": "proceso-escucha",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/proceso-escucha.png",
+    "master": "images-4k/proceso-escucha.jpg"
+  },
+  {
+    "name": "proceso-seguimiento",
+    "native": [
+      1672,
+      941
+    ],
+    "export": [
+      3840,
+      2160
+    ],
+    "method": "4K export resampled from generated source with Lanczos3",
+    "original": "dist/assets/proceso-seguimiento.png",
+    "master": "images-4k/proceso-seguimiento.jpg"
+  },
+  {
     "name": "seguros",
     "native": [
       1672,

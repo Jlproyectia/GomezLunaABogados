@@ -1,6 +1,6 @@
 [
   {
-    "desktop": "autoplay, synchronized captions, hover, keyboard, pause, links, wrapping and interrupted transitions pass",
+    "desktop": "autoplay, synchronized captions, hover, keyboard, pause while focused, links, wrapping and interrupted transitions pass; no pause button",
     "errors": []
   },
   {

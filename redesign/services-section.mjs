@@ -22,7 +22,7 @@ export function servicesSection(services){
     </div>
     <div class="service-carousel-controls">
      <span class="service-counter" aria-hidden="true"><b>01</b> / 06</span>
-     <div class="service-control-buttons"><button type="button" class="service-play" aria-label="Pausar cambio automático"><span class="service-play-symbol" aria-hidden="true">Ⅱ</span><span class="service-play-label">Pausar</span></button><button type="button" class="service-prev" aria-label="Imagen anterior">←</button><button type="button" class="service-next" aria-label="Imagen siguiente">→</button></div>
+     <div class="service-control-buttons"><button type="button" class="service-prev" aria-label="Imagen anterior">←</button><button type="button" class="service-next" aria-label="Imagen siguiente">→</button></div>
     </div>
     <p class="sr-only service-carousel-status" aria-live="polite" aria-atomic="true"></p>
    </div>

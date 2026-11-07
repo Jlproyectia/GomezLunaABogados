@@ -22,6 +22,7 @@ Abrir **http://localhost:4173/**.
 - `redesign/dist/assets/`: fotografías, versiones WebP, logo y tipografía originales.
 - `redesign/hero.mjs`: cabecera de la portada.
 - `redesign/services-section.mjs` y `services-carousel.js`: directorio de servicios y carrusel.
+- `redesign/workflow-section.mjs`: los tres pasos de trabajo con texto y fotografía.
 - `redesign/content.json` y `services.json`: contenido y organización de los servicios.
 - `redesign/source/`: contenido recuperado de la web original y recursos de referencia.
 - `redesign/images-4k/`: másteres exportados a 4K mediante reescalado; la resolución nativa se documenta en `image-delivery.json`.

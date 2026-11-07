@@ -27,17 +27,18 @@ try{
  await page.getByRole('button',{name:'Mostrar Herencias y testamentos',exact:true}).focus();
  await expect(page.locator('.directory-row.is-active')).toHaveAttribute('data-service','3');
  await page.keyboard.press('ArrowDown');await expect(page.locator('.directory-row.is-active')).toHaveAttribute('data-service','4');
- await page.getByRole('button',{name:'Pausar cambio automático',exact:true}).click();
- await expect(page.getByRole('button',{name:'Reanudar cambio automático',exact:true})).toBeVisible();
+ await expect(page.locator('.service-play')).toHaveCount(0);
+ await page.waitForTimeout(5500);
+ await expect(page.locator('.directory-row.is-active')).toHaveAttribute('data-service','4');
  await page.getByRole('button',{name:'Mostrar Familia y divorcios',exact:true}).click();
  await expect(page.locator('.service-image-slide:not([hidden])')).toHaveCount(1);
  await page.locator('#servicios').screenshot({path:path.join(out,'services-desktop.png')});
  await page.getByRole('link',{name:'Ver servicio de Familia y divorcios',exact:true}).click();await page.waitForURL('**/divorcios-y-familia/');
- report.push({desktop:'autoplay, synchronized captions, hover, keyboard, pause, links, wrapping and interrupted transitions pass',errors});
+ report.push({desktop:'autoplay, synchronized captions, hover, keyboard, pause while focused, links, wrapping and interrupted transitions pass; no pause button',errors});
  for(const width of [768,390,320]){
   const mobile=await browser.newPage({viewport:{width,height:844},reducedMotion:'reduce',hasTouch:true});const mobileErrors=[];mobile.on('pageerror',e=>mobileErrors.push(e.message));
   await mobile.goto('http://127.0.0.1:4173/',{waitUntil:'networkidle'});await mobile.locator('#servicios').scrollIntoViewIfNeeded();
-  await expect(mobile.getByRole('button',{name:'Reanudar cambio automático',exact:true})).toBeVisible();
+  await expect(mobile.locator('.service-play')).toHaveCount(0);
   await mobile.getByRole('button',{name:'Mostrar Derecho laboral',exact:true}).click();
   await expect(mobile.locator('.service-caption-title')).toHaveText('Derecho laboral');
   await expect(mobile.locator('.service-image-slide:not([hidden])')).toHaveCount(1);

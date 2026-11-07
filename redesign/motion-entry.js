@@ -5,6 +5,9 @@ const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 if(!reduced){
  const ease=[.22,1,.36,1];
  inView('.reveal',el=>{animate(el,{opacity:[0,1],y:[25,0]},{duration:.75,ease});},{margin:'0px 0px -35px 0px'});
+ document.querySelectorAll('.workflow-step').forEach((el,i)=>{
+  inView(el,()=>{animate(el,{opacity:[0,1],y:[24,0]},{duration:.7,delay:matchMedia('(min-width: 801px)').matches?i*.1:0,ease});},{margin:'0px 0px -35px 0px'});
+ });
  if(document.querySelector('.hero-glass-panel')){
   animate('.hero-background',{opacity:[0,1]},{duration:.7,ease});
   animate('.hero-glass-panel',{opacity:[0,1],y:[14,0]},{duration:.8,delay:.12,ease});

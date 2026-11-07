@@ -7,12 +7,10 @@ export function initServicesCarousel(){
  const caption=section.querySelector('.service-caption-link');
  const counter=section.querySelector('.service-counter b');
  const status=section.querySelector('.service-carousel-status');
- const play=section.querySelector('.service-play');
  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
- let active=0,paused=reduced,visible=false,hovered=false,focused=false,timer,revision=0,animations=[];
+ let active=0,visible=false,hovered=false,focused=false,timer,revision=0,animations=[];
  const interval=5200;
- function schedule(){clearTimeout(timer);if(!paused&&visible&&!hovered&&!focused&&!document.hidden)timer=setTimeout(()=>select(active+1,false),interval);}
- function updatePlay(){play.setAttribute('aria-label',paused?'Reanudar cambio automático':'Pausar cambio automático');play.querySelector('.service-play-symbol').textContent=paused?'▷':'Ⅱ';play.querySelector('.service-play-label').textContent=paused?'Reproducir':'Pausar';}
+ function schedule(){clearTimeout(timer);if(!reduced&&visible&&!hovered&&!focused&&!document.hidden)timer=setTimeout(()=>select(active+1,false),interval);}
  function select(index,manual=true,direction=1){
   const next=(index+slides.length)%slides.length;if(next===active){schedule();return;}
   const previous=active,token=++revision;active=next;
@@ -40,7 +38,6 @@ export function initServicesCarousel(){
  });
  section.querySelector('.service-next').addEventListener('click',()=>select(active+1));
  section.querySelector('.service-prev').addEventListener('click',()=>select(active-1,true,-1));
- play.addEventListener('click',()=>{paused=!paused;updatePlay();schedule();});
  section.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch'){hovered=true;schedule();}});
  section.addEventListener('pointerleave',()=>{hovered=false;schedule();});
  section.addEventListener('focusin',()=>{focused=true;schedule();});
@@ -48,5 +45,4 @@ export function initServicesCarousel(){
  document.addEventListener('visibilitychange',schedule);
  if('IntersectionObserver' in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;schedule();},{threshold:.3}).observe(section);
  else{visible=true;schedule();}
- updatePlay();
 }

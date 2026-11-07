@@ -1,0 +1,227 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "photos": [
+      {
+        "x": 60,
+        "y": 553.078125,
+        "width": 424,
+        "height": 331.25,
+        "top": 553.078125,
+        "right": 484,
+        "bottom": 884.328125,
+        "left": 60
+      },
+      {
+        "x": 508,
+        "y": 553.078125,
+        "width": 424,
+        "height": 331.25,
+        "top": 553.078125,
+        "right": 932,
+        "bottom": 884.328125,
+        "left": 508
+      },
+      {
+        "x": 956,
+        "y": 553.078125,
+        "width": 424,
+        "height": 331.25,
+        "top": 553.078125,
+        "right": 1380,
+        "bottom": 884.328125,
+        "left": 956
+      }
+    ],
+    "imagesLoaded": true,
+    "pauseButtons": 0,
+    "text": [
+      "Le escuchamos",
+      "Estudiamos su caso",
+      "Le acompañamos"
+    ],
+    "visible": true,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "photos": [
+      {
+        "x": 28,
+        "y": 584.609375,
+        "width": 308.65625,
+        "height": 241.125,
+        "top": 584.609375,
+        "right": 336.65625,
+        "bottom": 825.734375,
+        "left": 28
+      },
+      {
+        "x": 357.65625,
+        "y": 584.59375,
+        "width": 308.671875,
+        "height": 241.140625,
+        "top": 584.59375,
+        "right": 666.328125,
+        "bottom": 825.734375,
+        "left": 357.65625
+      },
+      {
+        "x": 687.328125,
+        "y": 584.609375,
+        "width": 308.65625,
+        "height": 241.125,
+        "top": 584.609375,
+        "right": 995.984375,
+        "bottom": 825.734375,
+        "left": 687.328125
+      }
+    ],
+    "imagesLoaded": true,
+    "pauseButtons": 0,
+    "text": [
+      "Le escuchamos",
+      "Estudiamos su caso",
+      "Le acompañamos"
+    ],
+    "visible": true,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "photos": [
+      {
+        "x": 20,
+        "y": -169.125,
+        "width": 728,
+        "height": 455,
+        "top": -169.125,
+        "right": 748,
+        "bottom": 285.875,
+        "left": 20
+      },
+      {
+        "x": 20,
+        "y": 477.15625,
+        "width": 728,
+        "height": 455,
+        "top": 477.15625,
+        "right": 748,
+        "bottom": 932.15625,
+        "left": 20
+      },
+      {
+        "x": 20,
+        "y": 1123.4375,
+        "width": 728,
+        "height": 455,
+        "top": 1123.4375,
+        "right": 748,
+        "bottom": 1578.4375,
+        "left": 20
+      }
+    ],
+    "imagesLoaded": true,
+    "pauseButtons": 0,
+    "text": [
+      "Le escuchamos",
+      "Estudiamos su caso",
+      "Le acompañamos"
+    ],
+    "visible": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "photos": [
+      {
+        "x": 20,
+        "y": 105.078125,
+        "width": 350,
+        "height": 273.4375,
+        "top": 105.078125,
+        "right": 370,
+        "bottom": 378.515625,
+        "left": 20
+      },
+      {
+        "x": 20,
+        "y": 564.296875,
+        "width": 350,
+        "height": 273.4375,
+        "top": 564.296875,
+        "right": 370,
+        "bottom": 837.734375,
+        "left": 20
+      },
+      {
+        "x": 20,
+        "y": 1023.515625,
+        "width": 350,
+        "height": 273.4375,
+        "top": 1023.515625,
+        "right": 370,
+        "bottom": 1296.953125,
+        "left": 20
+      }
+    ],
+    "imagesLoaded": true,
+    "pauseButtons": 0,
+    "text": [
+      "Le escuchamos",
+      "Estudiamos su caso",
+      "Le acompañamos"
+    ],
+    "visible": true,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "photos": [
+      {
+        "x": 20,
+        "y": 193.84375,
+        "width": 280,
+        "height": 218.75,
+        "top": 193.84375,
+        "right": 300,
+        "bottom": 412.59375,
+        "left": 20
+      },
+      {
+        "x": 20,
+        "y": 598.375,
+        "width": 280,
+        "height": 218.75,
+        "top": 598.375,
+        "right": 300,
+        "bottom": 817.125,
+        "left": 20
+      },
+      {
+        "x": 20,
+        "y": 1027.703125,
+        "width": 280,
+        "height": 218.75,
+        "top": 1027.703125,
+        "right": 300,
+        "bottom": 1246.453125,
+        "left": 20
+      }
+    ],
+    "imagesLoaded": true,
+    "pauseButtons": 0,
+    "text": [
+      "Le escuchamos",
+      "Estudiamos su caso",
+      "Le acompañamos"
+    ],
+    "visible": true,
+    "errors": []
+  }
+]
