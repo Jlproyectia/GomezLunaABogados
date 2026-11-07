@@ -1,0 +1,325 @@
+[
+  {
+    "width": 1920,
+    "viewport": 1920,
+    "height": 1080,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 76,
+      "y": 231.875,
+      "width": 560,
+      "height": 568.53125,
+      "top": 231.875,
+      "right": 636,
+      "bottom": 800.40625,
+      "left": 76
+    },
+    "hero": {
+      "x": 0,
+      "y": 136.140625,
+      "width": 1920,
+      "height": 760,
+      "top": 136.140625,
+      "right": 1920,
+      "bottom": 896.140625,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 1672,
+    "viewport": 1672,
+    "height": 941,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 66.875,
+      "y": 242.515625,
+      "width": 560,
+      "height": 547.234375,
+      "top": 242.515625,
+      "right": 626.875,
+      "bottom": 789.75,
+      "left": 66.875
+    },
+    "hero": {
+      "x": 0,
+      "y": 136.140625,
+      "width": 1672,
+      "height": 760,
+      "top": 136.140625,
+      "right": 1672,
+      "bottom": 896.140625,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "viewport": 1440,
+    "height": 900,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 57.59375,
+      "y": 252.6875,
+      "width": 560,
+      "height": 526.890625,
+      "top": 252.6875,
+      "right": 617.59375,
+      "bottom": 779.578125,
+      "left": 57.59375
+    },
+    "hero": {
+      "x": 0,
+      "y": 136.140625,
+      "width": 1440,
+      "height": 760,
+      "top": 136.140625,
+      "right": 1440,
+      "bottom": 896.140625,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "viewport": 1366,
+    "height": 768,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 54.625,
+      "y": 201.890625,
+      "width": 560,
+      "height": 500.34375,
+      "top": 201.890625,
+      "right": 614.625,
+      "bottom": 702.234375,
+      "left": 54.625
+    },
+    "hero": {
+      "x": 0,
+      "y": 136.140625,
+      "width": 1366,
+      "height": 631.859375,
+      "top": 136.140625,
+      "right": 1366,
+      "bottom": 768,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "viewport": 1280,
+    "height": 720,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 51.1875,
+      "y": 213.796875,
+      "width": 560,
+      "height": 428.53125,
+      "top": 213.796875,
+      "right": 611.1875,
+      "bottom": 642.328125,
+      "left": 51.1875
+    },
+    "hero": {
+      "x": 0,
+      "y": 136.140625,
+      "width": 1280,
+      "height": 583.859375,
+      "top": 136.140625,
+      "right": 1280,
+      "bottom": 720,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 900,
+    "viewport": 900,
+    "height": 600,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 36,
+      "y": 168.234375,
+      "width": 530,
+      "height": 399.65625,
+      "top": 168.234375,
+      "right": 566,
+      "bottom": 567.890625,
+      "left": 36
+    },
+    "hero": {
+      "x": 0,
+      "y": 136.140625,
+      "width": 900,
+      "height": 463.859375,
+      "top": 136.140625,
+      "right": 900,
+      "bottom": 600,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "viewport": 768,
+    "height": 1024,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 30.71875,
+      "y": 244.828125,
+      "width": 510,
+      "height": 507.328125,
+      "top": 244.828125,
+      "right": 540.71875,
+      "bottom": 752.15625,
+      "left": 30.71875
+    },
+    "hero": {
+      "x": 0,
+      "y": 118.5,
+      "width": 768,
+      "height": 760,
+      "top": 118.5,
+      "right": 768,
+      "bottom": 878.5,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "viewport": 390,
+    "height": 844,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 18,
+      "y": 259.984375,
+      "width": 354,
+      "height": 442.53125,
+      "top": 259.984375,
+      "right": 372,
+      "bottom": 702.515625,
+      "left": 18
+    },
+    "hero": {
+      "x": 0,
+      "y": 118.5,
+      "width": 390,
+      "height": 725.5,
+      "top": 118.5,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "viewport": 375,
+    "height": 667,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 18,
+      "y": 196.953125,
+      "width": 339,
+      "height": 391.578125,
+      "top": 196.953125,
+      "right": 357,
+      "bottom": 588.53125,
+      "left": 18
+    },
+    "hero": {
+      "x": 0,
+      "y": 118.5,
+      "width": 375,
+      "height": 548.5,
+      "top": 118.5,
+      "right": 375,
+      "bottom": 667,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "viewport": 320,
+    "height": 568,
+    "pageOverflow": false,
+    "panelOverflow": false,
+    "headingOverflow": false,
+    "heroFitsViewport": true,
+    "panelFitsHero": true,
+    "panel": {
+      "x": 18,
+      "y": 147.453125,
+      "width": 284,
+      "height": 391.578125,
+      "top": 147.453125,
+      "right": 302,
+      "bottom": 539.03125,
+      "left": 18
+    },
+    "hero": {
+      "x": 0,
+      "y": 118.5,
+      "width": 320,
+      "height": 449.5,
+      "top": 118.5,
+      "right": 320,
+      "bottom": 568,
+      "left": 0
+    },
+    "backgroundLoaded": true,
+    "errors": []
+  },
+  {
+    "motionErrors": []
+  }
+]
