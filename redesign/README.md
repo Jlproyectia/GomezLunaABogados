@@ -31,3 +31,7 @@ El formulario prepara un borrador de correo y requiere que el visitante lo revis
 `node verify.mjs` comprueba enlaces y recursos locales, unificación del despacho/equipo y dimensiones de los másteres. Las rutas principales y el bundle de animación se comprueban por HTTP. `node check-hero.mjs` revisa la cabecera en un Chrome headless aislado a 1672, 1440, 900, 768, 390 y 320 px: desbordamientos, imágenes, enlaces y errores de animación. Las capturas de escritorio/móvil y el informe se guardan en `qa/`. La vista integrada no estuvo disponible; estas comprobaciones se ejecutan independientemente de las pestañas personales del usuario.
 
 El aviso legal combinado original carga un objeto externo de socializame.es que no se descargó: la revisión automática rechazó transmitir identificadores personales en esa URL. Se conservaron los avisos legales, de privacidad y cookies servidos directamente por el dominio original; no queda bloqueada la navegación legal local.
+
+## Reseñas de Google
+
+La portada utiliza `reviews-section.mjs`. Verificado directamente en Google Maps el 7 de noviembre de 2026: 4,9/5 y 131 reseñas. Extractos de Angela Guillen, Alejandra HF y Jose Burgos, todos con 5 estrellas. Los enlaces abren la ficha original. Contenido estático sin actualización automática; revisar puntuación y recuento al actualizar. El despacho conserva la sección de proceso.
